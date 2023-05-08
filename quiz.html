@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  			<!-- Nav -->
+			<nav >
+			<ul>
+				<li><a href="/index.html">Home</a></li>
+				
+				<li><a href="/photos.html">Photos</a></li>
+				
+				<li><a href="/videos.html">Videos</a></li>
+				
+				<li><a href="/fun.html">Fun</a></li>
+				
+				<li><a href="/quiz.html">Quiz</a></li>
+				<il><input type="text" placeholder="Search"></il>
+				
+			</ul>
+			</nav>
+			<!-- nav -->
+<body>
+    <div id="container">
+        <div id="start">Start Quiz!</div>
+         </div>    
+        <div id="choices" style="display:none">
+        <p id="question"></p>
+        
+          <input type="radio" id="choiceA" name="choice" class="radio" value="A">
+          <label id="labelForChoiceA" for="choiceA"></label><br></input>
+          
+ <input type="radio" id="choiceB" name="choice" class="radio" value="B">
+  <label id="labelForChoiceB" for="choiceB"></label><br></input>
+                
+  <input type="radio" id="choiceC" name="choice" class="radio" value="C">
+  <label id="labelForChoiceC" for="choiceC"></label><br></input>
+          
+      <input type="radio" id="choiceD" name="choice" class="radio" value="D">
+                   <label id="labelForChoiceD" for="choiceD"></label><br></input>
+           
+        
+        
+            
+            <div class="next-button-container">
+                <button onclick="nextQuestion()">Next Question</button>
+            </div>
+        </div>
+        <div id="progress"></div>
+        <div id="scoreContainer" style="display:none">Well done you finished your quiz, and your score is = <p id="score"></p></div>
+    <script src="quiz.js"></script>
+</body>
+  <!-- Footer -->
+    <footer>
+      <p>Made with &hearts; by Group 3 2023</p>
+    </footer>
+</html>
