@@ -32,18 +32,6 @@ body{
     color : lightseagreen;
 }
 
-#qImg{
-    width : 200px;
-    height : 200px;
-    position: absolute;
-    left : 0px;
-    top : 0px;
-}
-#qImg img{
-    width : 200px;
-    height : 200px;
-    border-top-left-radius: 5px;
-}
 
 #question{
     width:700px;
@@ -88,13 +76,7 @@ body{
 }
 #counter{
     font-size: 3em;
-}
-#btimeGauge{
-    width : 150px;
-    height : 10px;
-    border-radius: 10px;
-    background-color: lightgray;
-    margin-left : 25px;
+
 }
 #timeGauge{
     height : 10px;
