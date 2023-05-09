@@ -112,13 +112,15 @@ li:last-child {
 footer {
     text-align: center;
     /*background-image: url(images/background-image.jpg);*/
-    color: #B3747E;
+    color: pink;
     text-transform: uppercase;
     text-decoration: bold;
     font-weight: 700px;
-    margin: 50px;
+    
     font-family: 'Secular One', sans-serif;
     font-size: 40px;
+    background-color: #333;
+
 }
 figcaption {
     text-align: center;
@@ -131,7 +133,7 @@ figcaption {
 
 }
 
-p {
+.para {
     text-align:center;
     margin: 20px;
 }
@@ -188,4 +190,15 @@ p {
 
 h2 {
     font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+h3 {
+  font-family: 'Bebas Neue', cursive;
+  text-align: justify;
+  margin: 20px;
+}
+video {
+  display: block;
+  margin: 0 auto;
 }
